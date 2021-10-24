@@ -1,6 +1,8 @@
 # PyBer_Analysis
 ## Overview of the Analysis
-PyBer, a rideshare company, wants to explore how a number of key metrics vary based on their customers setting. An initial analysis  As an addon to the previous analysis performed on this data, In this analysis, we will look at visualizations of rideshare data from January 1st through the end of March 2019 to assist PyBer improve access to their services and determine affordability for underserved areas.
+PyBer, a rideshare company, needed visualization to showcase their average fare versus the total number of rides split by the trips location (urban, suburban, or rural). Data from 2019 is used for this analysis and will compare the total fares, total rides, and total drivers to capture PyBer's 2019 status and guide PyBer's business decisions on where resources and support are needed.
+
+## Results
 
 PyBer's data was captured with city information (Urban, Suburban, and Rural), fare amount, and driver ID.
 
@@ -25,8 +27,6 @@ Chart showing driver distribution per loction.
 ![% of Drivers by City](https://github.com/jp3tty/PyBer_Analysis/blob/main/analysis/Fig7.png)
 
 
-
-## Results
 "There is a description of the differences in ride-sharing data among the different city types. Ride-sharing data include the total rides, total drivers, total fares, average fare per ride and driver, and total fare by city type."
 
 ![PyBer Summary](https://github.com/jp3tty/PyBer_Analysis/blob/main/analysis/PyBer_Summary.PNG)
