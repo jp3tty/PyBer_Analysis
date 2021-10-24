@@ -6,7 +6,7 @@ PyBer's data was captured with city information (Urban, Suburban, and Rural), fa
 
 ![Bubble Chart from Initial Analysis](https://github.com/jp3tty/PyBer_Analysis/blob/main/analysis/Fig1.png)
 
-
+Below the box plots show the statistical distribution for the drivers for every setting. The urban and rural locations show normal distributions but the suburban setting have a negative skewed which will lets us know that some of these drivers are gathering less fares than other drivers.
 ![Driver Count Stats](https://github.com/jp3tty/PyBer_Analysis/blob/main/analysis/Fig2.png)
 
 
