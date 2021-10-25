@@ -7,24 +7,25 @@ In addition to the visualizations, PyBer's CEO would like to have a chart of the
 
 ## Results
 
-Below is a chart of PyBer Ride-Sharing Data for 2019. The bubble chart shows the average fare (in dollars) versus the total number of rides per city. The data is sorted by city type, as indicated in the chart legend, and the bubble sizes corregate with the number of drivers per city. 
+Below is a chart representing PyBer's Ride-Sharing Data for 2019. The bubble chart shows the average fare (in dollars) versus the total number of rides per city. The data has been sorted by city type as indicated in the legend, and the bubble sizes correlate with the number of drivers per city. 
 
 ![Bubble Chart from Initial Analysis](https://github.com/jp3tty/PyBer_Analysis/blob/main/analysis/Fig1.png)
 
 It's clear from the chart that:
 * More rides occur in an urban setting than in a rural setting.
-* Urban average fares are, in general, lower than suburban and rural average fares.
-* Rural settings have the lowest driver counts.
+* Many urban locations have a large number of drivers.
+* A majority of average fares in urban locations are lower than suburban and rural locations.
+* In general, rural settings have the lowest driver counts
 
-The below box plots show the statistical distribution of drivers for every setting. 
+The below box plot show the statistical distribution of drivers for every type of location. 
 
 ![Driver Count Stats](https://github.com/jp3tty/PyBer_Analysis/blob/main/analysis/Fig2.png)
 
-Urban and rural locations show normal distributions but the suburban setting have a negative skewed which will lets us know that some of these drivers are gathering less fares than other drivers.
+Urban and rural locations show normal distributions, where the average is near the middle of their respective boxes and whiskers, but the suburban box has a negative skewed, with the average closer to the top of the box and top whisker. This indicates that a majority of suburban cities have a lower then average number of drivers for that type of city, and that a small number of cities have a relatively large number of drivers.
 
 Another set of box plots below show the statistical distribution of ride counts for every city type.
 
-![Ride Count Stats]()
+![Ride Count Stats](https://github.com/jp3tty/PyBer_Analysis/blob/main/analysis/Fig3.png)
 
 As seen above, the rural type strongly shows a positive skew in the data, and the urban and suburban setting generally show a normal distribution.
 
