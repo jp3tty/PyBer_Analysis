@@ -2,6 +2,8 @@
 ## Overview of the Analysis
 A set of visualizations have been prepared from PyBer's 2019 ride-share data to help their executive team make decisions on where resources and support are needed.  The PyBer dataset is a combination of two .csv files (city_data and ride_data) and provides information for a number of key metrics. The analysis primarily focuses on fare price, city type, and driver count. The data captures the total number of drivers for every city and each city is assigned a type, such as urban, suburban, and rural. This analysis will look at the total average fare, total rides, and total drivers in each city type to identify ways for Pyber to improve their business.
 
+In addition to the visualizations, PyBer's CEO would like to have a chart of the analysis with the total rides, total drivers, total fares, average fare per ride, and average fare per driver in a chart for each city type. The CEO also wants a multiple-line chart of total fares for each city type.
+
 
 ## Results
 
