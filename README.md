@@ -7,7 +7,7 @@ In addition to the visualizations, PyBer's CEO would like a table of the analysi
 
 ## Results
 ### Visualizations and Statistical Summaries
-Below is a chart representing PyBer's Ride-Sharing Data for 2019. The bubble chart shows the average fare (in dollars) versus the total number of rides per city. The data has been sorted by city type as indicated in the legend, and the bubble sizes correlate with the number of drivers per city. 
+Below is a chart representing PyBer's Ride-Sharing Data for 2019. The bubble chart shows the average fare (in dollars) versus the total number of rides per city. The data has been sorted by city type, as indicated in the legend, and the bubble sizes correlate with the number of drivers per city. 
 
 ![Bubble Chart from Initial Analysis](https://github.com/jp3tty/PyBer_Analysis/blob/main/analysis/Fig1.png)
 
@@ -17,34 +17,37 @@ It's clear from the chart that:
 * A majority of average fares in urban locations are lower than suburban and rural locations.
 * In general, rural settings have the lowest driver counts
 
-The below, box plots show the statistical distribution for drivers for every type of location. 
+The box plot below shows the statistical distribution for the number of drivers in every type of location. 
 
 ![Driver Count Stats](https://github.com/jp3tty/PyBer_Analysis/blob/main/analysis/Fig2.png)
 
-Urban and rural locations show normal distributions, where the average is near the middle of their respective boxes and whiskers, but the suburban box has a negative skewed distribution, with the average closer to the top of the box and top whisker. This indicates that a majority of suburban cities have a lower then average number of drivers for that type of city, and that a small number of cities have a disproportionately large number of drivers for the suburban setting.
+Urban and rural locations show normal distributions, where the average is near the middle of their respective boxes and whiskers, but the suburban box has a negatively skewed distribution, where the average is closer to the top of its box. This indicates that a majority of suburban cities have a lower then average number of drivers for that type of city, and that a small number of cities have a disproportionately large number of drivers for the suburban setting.
 
 Another set of box plots (below) show the statistical distribution of rides given for every city type.
 
 ![Ride Count Stats](https://github.com/jp3tty/PyBer_Analysis/blob/main/analysis/Fig3.png)
 
-The data shows that urban settings almost have a normal distribution (with one outlier), the suburban distribution is more or less normal (although slightly negative), and the rural distribution is skewed positive. Here, the normal distributions suggest that the urban and suburban city types are preforming as expected in terms of ride count; the outlier in the urban type could be investigated for any further business opportunities. The positive skew in the rural setting indicates that a low number of rural locations utilize ride-share more that other rural locations.
+This data shows that urban settings have a relatively normal distribution (with one outlier), the suburban distribution is more or less normal (although slightly negative), and the rural distribution is skewed positive. Here, the normal distributions suggest that these city types are preforming as expected, in terms of ride count, but the outlier in the urban type could be investigated further for potential business opportunities. The positive skew in the rural setting indicates that a low number of rural locations utilize ride-share more that other rural locations.
 
-Chart showing average fare distribution per location.
+To breakdown the bubblechart further, the following visualizations quickly communicate the distribution of PyBer's key metrics.
+
+Average fare distribution per location:
 
 ![% of Fare by City](https://github.com/jp3tty/PyBer_Analysis/blob/main/analysis/Fig5.png)
 
 
-Chart showing ride distribution per location.
+Ride distribution per location:
 
 ![% of Rides by City](https://github.com/jp3tty/PyBer_Analysis/blob/main/analysis/Fig6.png)
 
 
-Chart showing driver distribution per loction.
+Driver distribution per loction:
 
 ![% of Drivers by City](https://github.com/jp3tty/PyBer_Analysis/blob/main/analysis/Fig7.png)
 
 
-"There is a description of the differences in ride-sharing data among the different city types. Ride-sharing data include the total rides, total drivers, total fares, average fare per ride and driver, and total fare by city type."
+From these three charts, we see that PyBer's urban locations dominate their key metrics of fares, rides, and total drivers even though, based on the "PyBer Ride-Sharing Data (2019)" bubble chart, suburban and rural cities charge the highest average fares. The number of drivers and rides in the urban cities generate most of the revenue for PyBer.
+
 
 ### PyBer 2019 Summary Table and Line Plot
 
