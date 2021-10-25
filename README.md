@@ -1,6 +1,6 @@
 # PyBer_Analysis
 ## Overview of the Analysis
-A set of visualizations have been prepared from PyBer's 2019 ride-share data to help their executive team make decisions on where resources and support are needed.  The PyBer dataset is a combination of two .csv files (city_data and ride_data) and provides information for a number of key metrics. The analysis primarily focuses on fare price, city type, and driver count. The data captures the total number of drivers for every city and each city is assigned a type, such as urban, suburban, and rural. This analysis will look at the total average fare, total rides, and total drivers in each city type to identify ways for Pyber to improve their business.
+A set of visualizations have been prepared from PyBer's 2019 ride-share data to help their executive team make decisions on where resources and support are needed.  The PyBer dataset is a combination of two .csv files (city_data and ride_data) and provides information on a number of their key metrics. The analysis primarily focuses on fare price, city type, and driver count. The data captures the total number of drivers for every city and each city is assigned a type, such as urban, suburban, and rural. This analysis will look at the total average fare, total rides, and total drivers in each type of city to identify ways for Pyber to improve their business.
 
 In addition to the visualizations, PyBer's CEO would like a table of the analysis with the total rides, total drivers, total fares, average fare per ride, and average fare per for each city type, as well as a line plot showing the total fares for each city type from the start of 2019 till the end of April 2019.
 
@@ -46,7 +46,7 @@ Chart showing driver distribution per loction.
 
 "There is a description of the differences in ride-sharing data among the different city types. Ride-sharing data include the total rides, total drivers, total fares, average fare per ride and driver, and total fare by city type."
 
-### PyBer 2019 Summary Table and Line Plot for the First Quarter
+### PyBer 2019 Summary Table and Line Plot
 
 
 ![PyBer Summary](https://github.com/jp3tty/PyBer_Analysis/blob/main/analysis/PyBer_Summary.PNG)
