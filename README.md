@@ -60,5 +60,8 @@ Although the average fare per driver for rural cities is more than double the fa
 
 
 ## Summary
-"There is a statement summarizing three business recommendations to the CEO for addressing any disparities among the city types."
-Based on the resulting analysis, my recommendation to address disparity amonng city types...the PyBer CEO 
+Based on the analysis, my recommendations to PyBer:
+
+* Look into the urban outlier from the "Ride Count Data (2019)" box plots. There could be a business opportunity in that city due to the high ride demand.
+* If possible, consider shifting drivers from suburban cities with high driver numbers to cities with low driver numbers.
+* Depending on proximity, have drivers from rural cities drive in the suburban cities with low number of drivers.
