@@ -50,12 +50,13 @@ From these three charts, we see that PyBer's urban locations dominate their key 
 
 
 ### PyBer 2019 Summary Table and Line Plot
-
+The summary table and line plot (below) further illustate the dominance of rural cities on PyBer's these key metrics.
 
 ![PyBer Summary](https://github.com/jp3tty/PyBer_Analysis/blob/main/analysis/PyBer_Summary.PNG)
 
 ![PyBer_Fare_Plot](https://github.com/jp3tty/PyBer_Analysis/blob/main/analysis/PyBer_Challenge_Fare.png)
 
+Although the average fare per driver for rural cities is more than double the fare of urban cities, the number of rides in an urban city is an order of magnitude larger than the number of rides in a rural city. Which, again, generates a much higher revenue for PyBer.
 
 
 ## Summary
